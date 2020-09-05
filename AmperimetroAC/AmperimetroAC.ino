@@ -1,10 +1,10 @@
 /****************************************************************************************
  Amperimetro AC
 
-   Se obtienen mediciones de de correinte AC usando un sensor ACS712
-   Los calculos se relizan en funcion de corriente pico(Ip) y no se hace una medicion directa del IRMS, 
-   por esta reazon el resultado es correcto siempre que la corriente tenga forma sinusoidal completa
- 
+   Se obtienen mediciones de corriente AC usando un sensor ACS712
+   Los cálculos se realizan en función de corriente pico(Ip) y no se hace una medición directa del IRMS, 
+   por esta razón el resultado es correcto siempre que la corriente tenga forma sinusoidal completa
+
  Conexiones:
   -----------------
   ACS712 -> Arduino
