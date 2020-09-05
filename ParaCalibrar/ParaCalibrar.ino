@@ -1,9 +1,12 @@
 /****************************************************************************************
- Amperímetro AC
+ Para Calibrar
 
-   Se obtienen mediciones de corriente AC usando un sensor ACS712
-   Los cálculos se realizan en función de corriente pico(Ip) y no se hace una medición directa del IRMS, 
-   por esta razón el resultado es correcto siempre que la corriente tenga forma sinusoidal completa
+  Programa de apoyo para recalcular la constante de sensibilidad del sensor 
+  Es necesario tomar dos mediaciones con este programa, de dos corrientes conocidas(usar un amperímetro)
+  y con los dos puntos calcular la constante:
+
+
+  Sensibilidad(V/A)= V2-V1/I2-I1 
  
  Conexiones:
   -----------------
@@ -24,7 +27,6 @@
    -https://github.com/naylampmechatronics/Ejemplos_ACS712
    
 **************************************************************************************************/
-
 int pin_ACS = A0; //definición del pin del sensor
 
 void setup() {
